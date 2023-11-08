@@ -5,6 +5,19 @@
 // float 
 
 
+// = assigning operator
+// == value check 
+// ===value ke sath data type bhi chek
+// && left and right dono ka true hona zaroori hai
+// || left ya right dono me se kisi ek ka true hona zaroori hai
+// <less then
+// > greater then
+// <=less then equal to
+// >= greater then equal to
+// != not equal to
+
+
+
 //   let Name = 'Ayan'
 //   let lastName ='Farhad'
 //   let age = 17
@@ -102,7 +115,191 @@
 
 // document.write(array)
 
-//**Loops **/
+//**Loops *
+
+
+// let inp = document.getElementById("value")
+// let array = []
+
+// function functionality(){
+//    let list = document.getElementsByClassName("ul");
+  
+
+//    for (let i = 0; i < array.length; i++) {
+//       let getli = document.createElement("li")
+//       getli.innerHTML = array[i] + '<button onclick="edit(' + i + ')">Edit</button> <button onclick="delete( ' + i + ')">Delete</button>'; 
+      
+      
+//    }
+// }
+
+
+// function todoInput(){
+//    let value= inp.value 
+//    if(value===""){
+//       alert("Please enter a value")
+//    }
+//    inp.value=""
+   
+//    array.push(value)
+//    functionality()
+// }
+
+// function delete(index){
+//    array.splice[i,1]
+//    functionality()
+
+// }
+// function edit(){/
+
+// }
+
+//  Increment Decrement
+
+// var a = 6
+// var b = 3
+// var c = 5
+// //var res = a++ + a++ + ++b + b++ + ++a
+// //         6    7     4      5    8  
+// //         6    7     4     5     7
+// // var res = a++ + a++ - --b + b-- + ++c + c++ + a
+//    //     6   +  7  - 2  +  2   +  6  +     6  + 6        31 
+//    //     6   +  7  -  2  + 1   +  6  +  7  +  7    
+// document.write(res)
+
+// var a = 4
+// var b = 7
+// var c = 15
+// var res = --a - --b + c++ + c-- + a
+// //         3  -  6  + 15  +  15 + 4
+// //         3  -  6  + 15  +  16 + 3 
+// document.write(res)
+
+// var a = 11
+// var b = 16
+// var c = 13
+// //var d = 45
+// var res = --a - --a - --a - --b + c++ + c--  + a
+//    //      10 -  9  -   8  - 15  + 13  +  13 + 11
+//    //      10  - 9  -   8  - 15 + 13  + 14 +  8  
+// document.write(res)
+
+
+// var a = 11
+// var b = 16
+// var c = 13
+// var d = 45
+// let f = 22
+// let e = 67 
+// var res = ++e + --e + f++ - ++e + f++ + ++a + c-- - --c + f +  c++ + ++d - ++a + a++ + ++c + e
+// //        68  +  67 +  22 - 68  +  23 + 12  + 13  -  11 + 22 +  11 +  46 -   13 + 13 + 12 + 68
+// //        68  +  67 + 22  - 68  +  23  + 12  + 13  - 11  + 23 + 11  + 46  - 13  + 13  + 12  + 68
+  
+// document.write(res)
+
+
+// var userInput = prompt ("admin")
+// var pass = prompt ("admin")
+// if (userInput== pass){
+//    document.write('login success')
+// }
+//  else {
+//  document.write('incorrect')
+// }
+
+// var a = prompt ("enter email")
+// var b = prompt ("enter password")
+// if (a == "usama" && b == '1234567'){
+//    document.write('login success')
+// }
+//  else {
+//  document.write('incorrect')
+// } 
+
+
+// var a = prompt ("enter email")
+// var b = prompt ("enter password")
+// if (a == "usama" || b == '1234567'){       
+//    document.write('login success')
+// }
+//  else {
+//  document.write('incorrect')
+// } 
+
+// let pro = ""
+// let userinp= prompt("enter value")
+
+// for (i = 10; i>=0; i++){
+// document.write(i+'<br>')
+// }
+
+// var i;
+// for (i=5; i>=0; i--){ 
+//    string == string + '*'                      //reverse countion
+//     document.write(i+'</br>')
+// }
+
+
+let string = ''
+let userInput = +prompt('enter')
+for(let i =0; i<=userInput; i++){
+   string = string + ' * ';
+   if( i ===  userInput){
+      document.write(string.length-1)
+      for (let j = 0; j <string.length; j++  + '<br>'){
+         document.write(string.slice(0 , string.length-j))
+      }
+   }
+}
+
+// let a = +prompt("Enter value")
+
+// for (let i = 1; i <= 10; i++) {
+//    document.write (a + " x " + i + " = " + a*i + "<br>")
+   
+// }
+
+ //     Nested loop //
+
+// let userinp = prompt("Enter city");
+// let arr = ["karachi", "lahore", 'muree' , 'islamabad', 'rawalpindi']
+// let abc = false 
+
+// for (let i = 0; i < arr.length; i++) {
+//    if (userinp== arr[i]) {
+//       abc = true
+//       alert("City found ")
+//    }
+// }
+// if (abc == false){
+//    alert("City not found")
+// }
+
+
+// let arr = ['usama', 'ali' , 'ayan', 'sheraz']
+// let arr2 = ['javed','khan']                  normal
+// for (let i=0; i<arr.length; i++){
+//     document.write(arr[i]+' '+ arr2+'<br>')
+// }
+
+// let  arr = [ 'Salman ' , ' Sohail ' , ' Arbaz ']
+// let arr2 = ['Saleem khan' , 'Asad']
+
+// for (let i = 0 ; i<arr.length ; i++){
+//    for (let b = 0; b < arr2.length; b++) {
+//       document.write(arr[i] + ' ' + arr2[b] + "<br>")
+      
+//    }
+// }
+  
+
+if ("karachi" === "Karachi"){
+   console.log("a");
+}else{
+   console.log('b');
+}
+
+
 // -------------------------------------------------------------------------------------------------//
 // -------------------------------------------------------------------------------------------------//
 // -------------------------------------------------------------------------------------------------//
@@ -362,7 +559,38 @@
 //     console.log(input.sValue)
 
 // }
-// console.log(sValue)
-
 
 // -------------------------------------------------------------------------------------------------//
+
+
+/** while loop **/
+
+// let a = 1;
+// while(a < 10){
+//    console.log(a);  
+//    a++
+//     for(let b = 1; b < 10; b++){
+//       console.log(b + " x " + a + " = " + b*a )
+//    }
+  
+// }
+
+//**do while **/
+ 
+// let i = 1;
+// do {
+//    console.log(i);
+//    i++
+// } while (i < 10)
+
+// plus ka asan tareeka
+
+// const name = "ayan";
+// const age = 17;
+// console.log (`My name is ${name} and my age is ${age} `)
+
+// let sabzi = ["aloo" , "gobi" ," piyaz",  "losson"];
+
+// for (let i = 0; i < sabzi.length; i++) {
+//    console.log(`${sabzi} and its ${i}`)
+// }
