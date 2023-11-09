@@ -118,42 +118,6 @@
 //**Loops *
 
 
-// let inp = document.getElementById("value")
-// let array = []
-
-// function functionality(){
-//    let list = document.getElementsByClassName("ul");
-  
-
-//    for (let i = 0; i < array.length; i++) {
-//       let getli = document.createElement("li")
-//       getli.innerHTML = array[i] + '<button onclick="edit(' + i + ')">Edit</button> <button onclick="delete( ' + i + ')">Delete</button>'; 
-      
-      
-//    }
-// }
-
-
-// function todoInput(){
-//    let value= inp.value 
-//    if(value===""){
-//       alert("Please enter a value")
-//    }
-//    inp.value=""
-   
-//    array.push(value)
-//    functionality()
-// }
-
-// function delete(index){
-//    array.splice[i,1]
-//    functionality()
-
-// }
-// function edit(){/
-
-// }
-
 //  Increment Decrement
 
 // var a = 6
@@ -240,17 +204,17 @@
 // }
 
 
-let string = ''
-let userInput = +prompt('enter')
-for(let i =0; i<=userInput; i++){
-   string = string + ' * ';
-   if( i ===  userInput){
-      document.write(string.length-1)
-      for (let j = 0; j <string.length; j++  + '<br>'){
-         document.write(string.slice(0 , string.length-j))
-      }
-   }
-}
+// let string = ''
+// let userInput = +prompt('enter')
+// for(let i =0; i<=userInput; i++){
+//    string = string + ' * ';
+//    if( i ===  userInput){
+//       document.write(string.length-1)
+//       for (let j = 0; j <string.length; j++  + '<br>'){
+//          document.write(string.slice(0 , string.length-j))
+//       }
+//    }
+// }
 
 // let a = +prompt("Enter value")
 
@@ -293,12 +257,60 @@ for(let i =0; i<=userInput; i++){
 // }
   
 
-if ("karachi" === "Karachi"){
-   console.log("a");
-}else{
-   console.log('b');
-}
+// if ("karachi" === "Karachi"){
+//    console.log("a");
+// }else{
+//    console.log('b');
+// }
 
+// -------------
+
+// let getul = document.getElementById("ul");
+// function abc(){
+//     let a = document.getElementById("inp");    
+//     let li = document.createElement("li");
+//          //console.log (li)
+//      let litext = document.createTextNode(a.value)               
+//      li.appendChild(litext)
+//          // console.log(li)
+//     getul.appendChild(li)
+//     a.value = " "
+//    let deletebtn = document.createElement("button")
+//   let btntext = document.createTextNode("Delete")
+//   deletebtn.appendChild(btntext) 
+//   li.appendChild(deletebtn) 
+//   deletebtn.setAttribute('onclick','del(this)')
+//   let editbtn = document.createElement("button")
+//   let editbtntext = document.createTextNode("Edit")
+//   editbtn.appendChild(editbtntext)
+//   li.appendChild(editbtn)
+//   editbtn.setAttribute("onclick",'editfun(this)')
+// }
+// function deleteall (){
+//     getul.innerHTML = ' '
+// }
+// function del(e){
+//   e.parentNode.remove()                 // console.log(e)
+// }
+// function editfun(e){
+//   let a = prompt("Enter Edit Value",e.parentNode.firstChild.nodeValue)
+//   e .parentNode.firstChild.nodeValue = a
+// //   console.log(a)
+// }
+
+
+
+
+
+
+// let inp = document.getElementById("value")
+// let sUl = document.getElementsByClassName("ul")
+// let array = []
+
+// function todoInput(){
+   
+
+// }
 
 // -------------------------------------------------------------------------------------------------//
 // -------------------------------------------------------------------------------------------------//
