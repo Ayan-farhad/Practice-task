@@ -1,0 +1,10 @@
+center{
+    margin-top: 20px;
+}
+
+.div{
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    padding-top: 10px;
+}
