@@ -1,22 +1,10 @@
-         //** My practice **/
+                        //** My practice **// 
 
 // 'Strings'
 // 23 integer 
 // float 
 
-
-// = assigning operator
-// == value check 
-// ===value ke sath data type bhi chek
-// && left and right dono ka true hona zaroori hai
-// || left ya right dono me se kisi ek ka true hona zaroori hai
-// <less then
-// > greater then
-// <=less then equal to
-// >= greater then equal to
-// != not equal to
-
-
+                  //**Alert , variable , prompt **/
 
 //   let Name = 'Ayan'
 //   let lastName ='Farhad'
@@ -39,25 +27,22 @@
 // document.write('your result is '+ result)
 
 
-// ----------
 
-// var check = 2
-// var check2 = 3
-// var plus = check++ + check++ + ++check2 + check2++ + check++
+                           //**IF ELSE**//
 
-// document.write( plus)
 
-// var check = 6
-// var check2 = 3
-// var one = 10
-// var plus = --check - --check2 + one++ + one-- + check++
-//             // 5     -    2    +  10     + 11    + 3
-// document.write(plus)
+// = assigning operator
+// == value check 
+// ===value ke sath data type bhi chek
+// && left and right dono ka true hona zaroori hai
+// || left ya right dono me se kisi ek ka true hona zaroori hai
+// <less then
+// > greater then
+// <=less then equal to
+// >= greater then equal to
+// != not equal to
 
-   //**if else**//
 
-// == vale check karega 
-// === vale ke sath datatypes nhi checlk karega
 
 // if(5==="5"){
 //     document.write('correct ')
@@ -66,10 +51,6 @@
 //     document.write('wrong')
 // }
 
-// -----------------
-
-// && dono side check karta hai 
-// || koi aik bhi true honi chiye
 
 
 // let email = prompt('Enter name')
@@ -82,7 +63,7 @@
 //     document.write('wrong')
 // }
 
-// --------------
+
 
 // let uvalue =+prompt('Enter your value')
 
@@ -102,23 +83,30 @@
 //     document.write('fail')   
 // }
 
-// ----------------------
+   
 
-//**  array **/
 
-// let array = ['Ayan','karachi','Pakistan','Buffer','Zone']
-// array.push('Dayare sheeri')
-// array.pop()
-// array.unshift('ayan')
-// array.shift()
-// array.splice(2,1,0)
+                          //**  Array **/
+
+
+// --arraykeMethods--//
+// push = akhir se value ko add karta hai
+// pop = akhir se value ko delete karta hai
+// unshift = shuru se value ko add karta hai  
+// shift = shuru se value ko delte karta hai 
+// splice = shuru se akhir se bech se value ko add bhi kata hai or delte bhi karat hai
+
+
+
+// let array = ['Ayan','karachi','Pakistan']
+// array.splice(1,1,"kam tamam")
 
 // document.write(array)
 
-//**Loops *
 
 
-//  Increment Decrement
+
+                         //** Increment Decrement **//
 
 // var a = 6
 // var b = 3
@@ -160,6 +148,64 @@
 // //        68  +  67 + 22  - 68  +  23  + 12  + 13  - 11  + 23 + 11  + 46  - 13  + 13  + 12  + 68
   
 // document.write(res)
+
+
+
+                          //**loops **//
+
+
+// let a = +prompt("Enter value")
+
+// for (let i = 1; i <= 10; i++) {
+//    document.write (a + " x " + i + " = " + a*i + "<br>")
+   
+// }
+
+
+
+                        //**  Nested loop **//
+
+// let userinp = prompt("Enter city");
+// let arr = ["karachi", "lahore", 'muree' , 'islamabad', 'rawalpindi']
+// let abc = false 
+
+// for (let i = 0; i < arr.length; i++) {
+//    if (userinp== arr[i]) {
+//       abc = true
+//       alert("City found ")
+//    }
+// }
+// if (abc == false){
+//    alert("City not found")
+// }
+
+
+// let arr = ['usama', 'ali' , 'ayan', 'sheraz']
+// let arr2 = ['javed','khan']                  normal
+// for (let i=0; i<arr.length; i++){
+//     document.write(arr[i]+' '+ arr2+'<br>')
+// }
+
+// let  arr = [ 'Salman ' , ' Sohail ' , ' Arbaz ']
+// let arr2 = ['Saleem khan' , 'Asad']
+
+// for (let i = 0 ; i<arr.length ; i++){
+//    for (let b = 0; b < arr2.length; b++) {
+//       document.write(arr[i] + ' ' + arr2[b] + "<br>")
+      
+//    }
+// }
+  
+
+// if ("karachi" === "Karachi"){
+//    console.log("a");
+// }else{
+//    console.log('b');
+// }
+
+
+
+// --------------------------------------------------------------------------------------------
 
 
 // var userInput = prompt ("admin")
@@ -223,47 +269,7 @@
    
 // }
 
- //     Nested loop //
-
-// let userinp = prompt("Enter city");
-// let arr = ["karachi", "lahore", 'muree' , 'islamabad', 'rawalpindi']
-// let abc = false 
-
-// for (let i = 0; i < arr.length; i++) {
-//    if (userinp== arr[i]) {
-//       abc = true
-//       alert("City found ")
-//    }
-// }
-// if (abc == false){
-//    alert("City not found")
-// }
-
-
-// let arr = ['usama', 'ali' , 'ayan', 'sheraz']
-// let arr2 = ['javed','khan']                  normal
-// for (let i=0; i<arr.length; i++){
-//     document.write(arr[i]+' '+ arr2+'<br>')
-// }
-
-// let  arr = [ 'Salman ' , ' Sohail ' , ' Arbaz ']
-// let arr2 = ['Saleem khan' , 'Asad']
-
-// for (let i = 0 ; i<arr.length ; i++){
-//    for (let b = 0; b < arr2.length; b++) {
-//       document.write(arr[i] + ' ' + arr2[b] + "<br>")
-      
-//    }
-// }
-  
-
-// if ("karachi" === "Karachi"){
-//    console.log("a");
-// }else{
-//    console.log('b');
-// }
-
-// -------------
+// ------------------Todo delete edit button------------------------------------------------
 
 
 // let getul = document.getElementById("ul")
@@ -307,9 +313,6 @@
 
   
 // }
-
-
-
 
 
 
@@ -608,3 +611,258 @@
 // for (let i = 0; i < sabzi.length; i++) {
 //    console.log(`${sabzi} and its ${i}`)
 // }
+                    
+
+
+
+//**Class 11 **/
+
+                               //**Switch case **/
+
+// let grade = "C"
+
+// switch (grade){
+//     case "A":
+//         console.log("A grade ");
+//         break
+//     case "B":
+//         console.log("B garde");
+//         break
+//     case "C":
+//         console.log("C grade");
+//     default:
+//         console.log("thenga");    
+
+// }
+
+
+// let num = prompt("enter")
+
+// switch (true){
+//     case num > 6  :
+//         console.log("A grade ");
+//         break
+//     default:
+//         console.log("thenga");    
+
+// }
+
+// let currentDate = new Date("November 09 2006 ");
+// // console.log(typeof(currentDate));
+// console.log(currentDate);
+
+
+
+// ----------------------------------------Test-practice------------------------------------------------------------/
+
+                                  //**Alert**//
+
+// Q--1
+
+// let a = prompt("Enter your name")
+// alert(a +"! Welcome our website")
+
+// Q--2
+
+// alert("Eror! Please enter a valid password")
+
+// Q--3
+
+// alert("Hello user \nWelcome javascript")
+
+// Q--4
+
+// alert("Welcome! to javascript")
+
+// Q--5
+
+// console.log('alert("Wednesday ko test hai alert!")');
+// alert("Wednesday ko test hai alert!")
+
+// Q--6
+
+// function action(){
+//     alert("Eror! Check internet")
+// }
+
+// Q--7
+
+
+                            //**Variable For String **/
+
+
+// Q--1
+
+// let username = "Ayan"
+// console.log(username);
+
+// Q-2
+
+// let myName = "Ayan"
+// let Myfull = "farhad"
+// console.log(myName+Myfull);
+
+// Q--3
+
+// let message;
+// message= "Hello user"
+
+// alert(message)
+
+// Q--4
+
+// let myName = "Ayan"
+// let age = 17 
+// let course= "Web and mobile dev"
+
+// alert(myName)
+// alert("My age is "+ " "+ age)
+// alert("Currently learn" +" "+ course)
+
+// Q--5 
+
+// let food = 'Pizza'
+// alert(food +" "+ "\nPizz" +'\nPiz'+"\nPi")
+
+// Q--6
+
+// let nam = "Ayan farhad"
+// let age = 17
+// let locat = "Pakistan"
+// let kid = 0
+// let mm = "Unmerried"
+
+// alert("My name is"+" "+nam +" "+ "my age is"+" "+age  +" "+ "and i live in"+" "+locat +" "+ "and i have"+" "+kid+" "+"Kid" +' '+ "because iam" +" "+mm  )
+
+
+// Q--7
+
+// let email = "khaanayan81@gmail.com"
+// alert("My email is"+" "+email)
+
+
+// Q--8
+
+// let book = "“A smarter way to learn JavaScript”"
+
+// alert("i am learnig Javascript from the book "+" "+book)
+
+// Q--9
+
+// let nam = "Ayan farhad"
+// let age = 17
+// let locat = "Pakistan"
+// let course = "Web and mobile"
+// let mm = "Mon, wed, Sat"
+// let script = 'My anme is ' +nam+ ' My age is ' +age+ ' and i live in '+locat+ ' Currently i learn '+course+ ' classes in  a week '+mm
+
+// alert(script)
+
+// Q--10
+
+// document.writeln('This is last question of variable for string through js');
+
+
+
+                            //**Variable For Numbers **/
+
+
+// Q--1
+
+// let age = 17 
+// age = age + " years old"
+
+// alert("I am "+age)
+
+// Q--2
+
+// let times = 21
+// times =  times + " times"
+
+// alert("You have visit this site "+times)
+
+// Q--3
+
+// let birthyear = 2006
+// birthyear = "My birth year is " +birthyear
+
+// document.write(birthyear)
+
+// Q--4 
+
+// let userName = 'John doe'
+// let item = 5 +" T-shirt(s)"
+
+// document.write(userName+" Ordered " +item+ " on XYZ clothing store")
+
+
+
+                            //**Variable For Numbers **/
+
+// Q-1
+
+// let num1 = 9
+// let num2 = 13
+// let plus = 9+13 
+// alert("Sum of "+num2+" and "+num1+ " is " +plus)
+
+// Q--2
+
+// let num1 = 13
+// let num2 = 9 
+// let sub = 13-9
+// alert("Result of subtracting "+num2+" and "+num1+" is "+sub)
+
+// let num1 = 13
+// let num2 = 9 
+// let sub = 13*9
+// alert("Result of Multiplying "+num2+" and "+num1+" is "+sub)
+
+// let num1 = 13
+// let num2 = 9 
+// let sub = 13/9
+// alert("Result of dividing "+num2+" and "+num1+" is "+sub)
+
+// let num1 = 13
+// let num2 = 9 
+// let sub = 13*9
+// alert("Result of Multiplying "+num2+" and "+num1+" is "+sub)
+
+// let num1 = 13
+// let num2 = 9 
+// let sub = 13%9
+// alert("Reminding od dividing "+num2+" and "+num1+" is "+sub)
+
+
+// Q--3
+
+//  let abca = 'Undefined'
+// document.write('a. Value after variable declaration is ' + abca)
+// document.write('<br>')
+
+// let abcb = '3'
+// document.write('b. Initial value is ' + abcb)
+// document.write('<br>')
+
+// let abcc = 3
+// abcc ++;
+// document.write('c. Value after increment is ' + abcc)
+// document.write('<br>')
+
+
+// let abcd = 10
+// abcd ++;
+// document.write('d. Value after adition is ' + abcd)
+// document.write('<br>')
+
+
+// let abce = 11
+// abce --;
+// document.write('e. Value after increment is ' + abce)
+// document.write('<br>')
+
+
+// let abcf = abce%3
+// document.write('f. The reminder is ' + abcf)
+// document.write('<br>')
+
