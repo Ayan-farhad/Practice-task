@@ -886,8 +886,8 @@
 // }
 
 
-let curentDate = new Date();
-let days = [Sun, monday, tuesday, wednesday, thrusday, friday]
-let ind =
-console.log(days[]);
+// let curentDate = new Date();
+// let days = [Sun, monday, tuesday, wednesday, thrusday, friday]
+// let ind =
+// console.log(days[]);
 
