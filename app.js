@@ -866,3 +866,28 @@
 // document.write('f. The reminder is ' + abcf)
 // document.write('<br>')
 
+// -----------------------Todo--app-------------------------------
+
+// let get = document.getElementById("ul")
+
+// function todoAction(){
+//     let inp = document.getElementsByClassName("input")
+//     let creLi = document.createElement("li")
+
+//     let liText = document.createTextNode(inp.value)
+//     creLi.appendChild(liText)
+//     get.appendChild(creLi)
+//     inp.value = ""
+
+//     let delBtn = document.createElement("button")
+//     let delBtntext = document.createTextNode("Delete")
+//     delBtn.appendChild(delBtntext)
+//     creLi.appendChild(delBtn)
+// }
+
+
+let curentDate = new Date();
+let days = [Sun, monday, tuesday, wednesday, thrusday, friday]
+let ind =
+console.log(days[]);
+
