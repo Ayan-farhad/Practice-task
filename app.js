@@ -891,3 +891,23 @@
 // let ind =
 // console.log(days[]);
 
+
+// const img = document.querySelector("img")
+
+// function toss(clicked){
+//     let rNumber = Math.floor(Math.random()*7)
+//     console.log(rNumber);
+//     if(clicked==="Shake" || rNumber===1 ){
+//         console.log(clicked,);
+       
+//     }
+// }
+
+
+const img = document.querySelector("img")
+function rollDice() {
+    var diceImageElement = document.getElementById("diceImage");
+    var randomNumber = Math.floor(Math.random() * 6) + 1; // Generates a random number between 1 and 6
+    var imagePath = "path/to/your/images/dice" + randomNumber + ".jpg"; // Replace with the actual path to your images
+    Image.src ="./dice1.png";
+}

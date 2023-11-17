@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #dice {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -30,7 +44,7 @@
     <!-- 
     <div class="connect"></div>  -->
 
-<!-- 
+    <!-- 
     <center>
         <div class="div">
             <input type="text" name="" id="input" placeholder="Enter value">
@@ -41,16 +55,28 @@
         </div>
     </center> -->
 
-<!-- ------------------------------------------------------------------------------------------------------->
+    <!-- ------------------------------------------------------------------------------------------------------->
 
-<!-- <div>
+    <!-- <div>
     <h1>Welcome To our website</h1>
     <button onclick="action()">Action</button>
 </div> -->
 
-<!-- <input type="text" placeholder="Enter value" id="Input">
+    <!-- <input type="text" placeholder="Enter value" id="Input">
 <button onclick="todoAction()">Submit</button>
 <ul class="ul"></ul> -->
+
+
+<!-- <h1>Toss</h1>
+<button onclick="toss('Shake')">Shake</button>
+<img src="" alt=""> -->
+
+
+
+<button onclick="rollDice()">Roll</button>
+
+<div id="dice" >Click to Roll</div>
+<img src="" alt="">
 
     <script src="app.js"></script>
 </body>
