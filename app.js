@@ -315,7 +315,64 @@
 // }
 
 
+// ----------------------------------//**Object**//--------------------------------------------
 
+// let obj = {
+//     s_name : "Ayan",
+//     s_id :  "1159",
+//     s_age :  "19",
+//     s_roll : "7078",
+//     s_course : "web and mob",
+// }
+// console.log(obj.s_name);
+
+
+
+let complexObject = {
+    person: {
+        name: {
+            first: "John",
+            last: "Doe",
+        },
+        age: 30,
+        address: {
+            street: {
+                number: 123,
+                name: "Nested Street",
+            },
+            city: "Nested City",
+            country: "Nested Country",
+        },
+    },
+    work: {
+        company: {
+            name: "TechCorp",
+            location: {
+                city: "TechCity",
+                country: "TechCountry",
+            },
+        },
+        position: "Senior Developer",
+        projects: [
+            {
+                name: "Project A",
+                technologies: ["JavaScript", "React", "Node.js"],
+            },
+            {
+                name: "Project B",
+                technologies: ["Python", "Django", ['new',['postgresql']]],
+            },
+        ],
+    },
+    hobbies: {
+        indoor: ["Reading", "Chess"],
+        outdoor: ["Hiking", "Cycling"],
+    },
+};
+
+// console.log(complexObject.work.company.location);
+// console.log(complexObject.position[0].projects[2]);
+console.log(complexObject.position[1].technologies[2][0]);
 
 // -------------------------------------------------------------------------------------------------//
 // -------------------------------------------------------------------------------------------------//
@@ -904,10 +961,10 @@
 // }
 
 
-const img = document.querySelector("img")
-function rollDice() {
-    var diceImageElement = document.getElementById("diceImage");
-    var randomNumber = Math.floor(Math.random() * 6) + 1; // Generates a random number between 1 and 6
-    var imagePath = "path/to/your/images/dice" + randomNumber + ".jpg"; // Replace with the actual path to your images
-    Image.src ="./dice1.png";
-}
+// const img = document.querySelector("img")
+// function rollDice() {
+//     var diceImageElement = document.getElementById("diceImage");
+//     var randomNumber = Math.floor(Math.random() * 6) + 1; // Generates a random number between 1 and 6
+//     var imagePath = "path/to/your/images/dice" + randomNumber + ".jpg"; // Replace with the actual path to your images
+//     Image.src ="./dice1.png";
+// }
