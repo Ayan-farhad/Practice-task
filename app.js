@@ -968,3 +968,5 @@ console.log(complexObject.position[1].technologies[2][0]);
 //     var imagePath = "path/to/your/images/dice" + randomNumber + ".jpg"; // Replace with the actual path to your images
 //     Image.src ="./dice1.png";
 // }
+
+
