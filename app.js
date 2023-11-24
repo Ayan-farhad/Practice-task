@@ -4,7 +4,8 @@
 // 23 integer 
 // float 
 
-                  //**Alert , variable , prompt **/
+
+// ----------------------------//**Alert , variable , prompt **/-------------------------------------
 
 //   let Name = 'Ayan'
 //   let lastName ='Farhad'
@@ -28,7 +29,7 @@
 
 
 
-                           //**IF ELSE**//
+// --------------------------------------//**IF ELSE**//--------------------------------------
 
 
 // = assigning operator
@@ -85,8 +86,7 @@
 
    
 
-
-                          //**  Array **/
+// --------------------------------------ARRAY---------------------------------------------------------
 
 
 // --arraykeMethods--//
@@ -106,7 +106,7 @@
 
 
 
-                         //** Increment Decrement **//
+// --------------------------------------//** Increment Decrement **//---------------------------------
 
 // var a = 6
 // var b = 3
@@ -151,7 +151,7 @@
 
 
 
-                          //**loops **//
+// -------------------------------------LOOPS---------------------------------------------------
 
 
 // let a = +prompt("Enter value")
@@ -163,7 +163,7 @@
 
 
 
-                        //**  Nested loop **//
+// -------------------------------------NESTED-LOOPS---------------------------------------------
 
 // let userinp = prompt("Enter city");
 // let arr = ["karachi", "lahore", 'muree' , 'islamabad', 'rawalpindi']
@@ -203,6 +203,41 @@
 //    console.log('b');
 // }
 
+// ------------------------------WHILE-LOOP-------------------------------------------------
+
+// let a = 1
+// while (a <= 10){
+//     console.log("chal raha hai");
+//     a++;
+// }
+
+// ---------------------------------DO-LOOP----------------------------------------------------
+
+
+
+
+// --------------------------------//**OBJECTS**//------------------------------------------------
+
+// let obj = {
+//     s_name : "Ayan",
+//     s_id :  "1159",
+//     s_age :  "19",
+//     s_roll : "7078",
+//     s_course : "web and mob",
+// }
+// console.log(obj);
+
+
+
+
+// -------------------------------------------//**EVENTS **//-------------------------------------------------
+
+
+// let button = document.querySelector("#head")
+
+// button.addEventListener('click' ,function(){
+//     console.log("Doneee");
+// })
 
 
 // --------------------------------------------------------------------------------------------
@@ -269,6 +304,9 @@
    
 // }
 
+
+
+
 // ------------------Todo delete edit button------------------------------------------------
 
 
@@ -315,64 +353,8 @@
 // }
 
 
-// ----------------------------------//**Object**//--------------------------------------------
-
-// let obj = {
-//     s_name : "Ayan",
-//     s_id :  "1159",
-//     s_age :  "19",
-//     s_roll : "7078",
-//     s_course : "web and mob",
-// }
-// console.log(obj.s_name);
 
 
-
-let complexObject = {
-    person: {
-        name: {
-            first: "John",
-            last: "Doe",
-        },
-        age: 30,
-        address: {
-            street: {
-                number: 123,
-                name: "Nested Street",
-            },
-            city: "Nested City",
-            country: "Nested Country",
-        },
-    },
-    work: {
-        company: {
-            name: "TechCorp",
-            location: {
-                city: "TechCity",
-                country: "TechCountry",
-            },
-        },
-        position: "Senior Developer",
-        projects: [
-            {
-                name: "Project A",
-                technologies: ["JavaScript", "React", "Node.js"],
-            },
-            {
-                name: "Project B",
-                technologies: ["Python", "Django", ['new',['postgresql']]],
-            },
-        ],
-    },
-    hobbies: {
-        indoor: ["Reading", "Chess"],
-        outdoor: ["Hiking", "Cycling"],
-    },
-};
-
-// console.log(complexObject.work.company.location);
-// console.log(complexObject.position[0].projects[2]);
-console.log(complexObject.position[1].technologies[2][0]);
 
 // -------------------------------------------------------------------------------------------------//
 // -------------------------------------------------------------------------------------------------//
@@ -709,221 +691,7 @@ console.log(complexObject.position[1].technologies[2][0]);
 // console.log(currentDate);
 
 
-
-// ----------------------------------------Test-practice------------------------------------------------------------/
-
-                                  //**Alert**//
-
-// Q--1
-
-// let a = prompt("Enter your name")
-// alert(a +"! Welcome our website")
-
-// Q--2
-
-// alert("Eror! Please enter a valid password")
-
-// Q--3
-
-// alert("Hello user \nWelcome javascript")
-
-// Q--4
-
-// alert("Welcome! to javascript")
-
-// Q--5
-
-// console.log('alert("Wednesday ko test hai alert!")');
-// alert("Wednesday ko test hai alert!")
-
-// Q--6
-
-// function action(){
-//     alert("Eror! Check internet")
-// }
-
-// Q--7
-
-
-                            //**Variable For String **/
-
-
-// Q--1
-
-// let username = "Ayan"
-// console.log(username);
-
-// Q-2
-
-// let myName = "Ayan"
-// let Myfull = "farhad"
-// console.log(myName+Myfull);
-
-// Q--3
-
-// let message;
-// message= "Hello user"
-
-// alert(message)
-
-// Q--4
-
-// let myName = "Ayan"
-// let age = 17 
-// let course= "Web and mobile dev"
-
-// alert(myName)
-// alert("My age is "+ " "+ age)
-// alert("Currently learn" +" "+ course)
-
-// Q--5 
-
-// let food = 'Pizza'
-// alert(food +" "+ "\nPizz" +'\nPiz'+"\nPi")
-
-// Q--6
-
-// let nam = "Ayan farhad"
-// let age = 17
-// let locat = "Pakistan"
-// let kid = 0
-// let mm = "Unmerried"
-
-// alert("My name is"+" "+nam +" "+ "my age is"+" "+age  +" "+ "and i live in"+" "+locat +" "+ "and i have"+" "+kid+" "+"Kid" +' '+ "because iam" +" "+mm  )
-
-
-// Q--7
-
-// let email = "khaanayan81@gmail.com"
-// alert("My email is"+" "+email)
-
-
-// Q--8
-
-// let book = "“A smarter way to learn JavaScript”"
-
-// alert("i am learnig Javascript from the book "+" "+book)
-
-// Q--9
-
-// let nam = "Ayan farhad"
-// let age = 17
-// let locat = "Pakistan"
-// let course = "Web and mobile"
-// let mm = "Mon, wed, Sat"
-// let script = 'My anme is ' +nam+ ' My age is ' +age+ ' and i live in '+locat+ ' Currently i learn '+course+ ' classes in  a week '+mm
-
-// alert(script)
-
-// Q--10
-
-// document.writeln('This is last question of variable for string through js');
-
-
-
-                            //**Variable For Numbers **/
-
-
-// Q--1
-
-// let age = 17 
-// age = age + " years old"
-
-// alert("I am "+age)
-
-// Q--2
-
-// let times = 21
-// times =  times + " times"
-
-// alert("You have visit this site "+times)
-
-// Q--3
-
-// let birthyear = 2006
-// birthyear = "My birth year is " +birthyear
-
-// document.write(birthyear)
-
-// Q--4 
-
-// let userName = 'John doe'
-// let item = 5 +" T-shirt(s)"
-
-// document.write(userName+" Ordered " +item+ " on XYZ clothing store")
-
-
-
-                            //**Variable For Numbers **/
-
-// Q-1
-
-// let num1 = 9
-// let num2 = 13
-// let plus = 9+13 
-// alert("Sum of "+num2+" and "+num1+ " is " +plus)
-
-// Q--2
-
-// let num1 = 13
-// let num2 = 9 
-// let sub = 13-9
-// alert("Result of subtracting "+num2+" and "+num1+" is "+sub)
-
-// let num1 = 13
-// let num2 = 9 
-// let sub = 13*9
-// alert("Result of Multiplying "+num2+" and "+num1+" is "+sub)
-
-// let num1 = 13
-// let num2 = 9 
-// let sub = 13/9
-// alert("Result of dividing "+num2+" and "+num1+" is "+sub)
-
-// let num1 = 13
-// let num2 = 9 
-// let sub = 13*9
-// alert("Result of Multiplying "+num2+" and "+num1+" is "+sub)
-
-// let num1 = 13
-// let num2 = 9 
-// let sub = 13%9
-// alert("Reminding od dividing "+num2+" and "+num1+" is "+sub)
-
-
-// Q--3
-
-//  let abca = 'Undefined'
-// document.write('a. Value after variable declaration is ' + abca)
-// document.write('<br>')
-
-// let abcb = '3'
-// document.write('b. Initial value is ' + abcb)
-// document.write('<br>')
-
-// let abcc = 3
-// abcc ++;
-// document.write('c. Value after increment is ' + abcc)
-// document.write('<br>')
-
-
-// let abcd = 10
-// abcd ++;
-// document.write('d. Value after adition is ' + abcd)
-// document.write('<br>')
-
-
-// let abce = 11
-// abce --;
-// document.write('e. Value after increment is ' + abce)
-// document.write('<br>')
-
-
-// let abcf = abce%3
-// document.write('f. The reminder is ' + abcf)
-// document.write('<br>')
-
-// -----------------------Todo--app-------------------------------
+// -----------------------------------TODO--app--------------------------------------------------------
 
 // let get = document.getElementById("ul")
 
@@ -968,5 +736,7 @@ console.log(complexObject.position[1].technologies[2][0]);
 //     var imagePath = "path/to/your/images/dice" + randomNumber + ".jpg"; // Replace with the actual path to your images
 //     Image.src ="./dice1.png";
 // }
+
+
 
 
