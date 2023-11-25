@@ -1,4 +1,4 @@
-center{
+/* center{
     margin-top: 20px;
 }
 
@@ -7,4 +7,9 @@ center{
     height: 300px;
     border: 2px solid black;
     padding-top: 10px;
+} */
+
+.inline{
+    display: inline ;
+    display: inline-flex ;
 }

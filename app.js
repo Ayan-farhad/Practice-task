@@ -738,5 +738,20 @@
 // }
 
 
+// const btn = document.querySelector('#head');
+// btn.addEventListener('click' , function(event){
+//     // event.preventDefault()
+//     // event.stopPropagation()
+//     console.log("chal raha hai");
+
+// })
+
+let calInp = document.querySelector("input")
+
+calInp.addEventListener("", function(click){
+    calInp.value += click
+})
+
+
 
 
