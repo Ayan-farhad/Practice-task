@@ -710,6 +710,7 @@
 //     creLi.appendChild(delBtn)
 // }
 
+           // ----------------------
 
 // let curentDate = new Date();
 // let days = [Sun, monday, tuesday, wednesday, thrusday, friday]
@@ -746,12 +747,22 @@
 
 // })
 
-let calInp = document.querySelector("input")
+// let calInp = document.querySelector("input")
 
-calInp.addEventListener("", function(click){
-    calInp.value += click
-})
-
-
+// calInp.addEventListener("", function(click){
+//     calInp.value += click
+// })
 
 
+// function anyTable(){
+//     let inp = document.getElementById("input").value;
+//     for (let table = 1; table < inp; table++) {
+//         let res = table * inp;
+//         table +=  inp + " x " + table +" = "+ res +"</br>";
+        
+//     }
+
+// }
+// console.log(anyTable());
+
+// --------------------------------------
