@@ -768,3 +768,37 @@
 // --------------------------------------
 
 
+// function rishta(bankBalance) {
+//     return new Promise((resolve, reject) => {
+//      if(bankBalance > 10000){
+//         resolve('mubarrak')
+//      }else{
+//         reject('ghar jao')
+//      }
+//     })
+    
+// }
+// rishta(20000)
+// .then(function(res){
+//     console.log(res);
+// })
+// .catch(function(rej){
+// console.log(rej);
+// })
+
+// axios.get("https://fakestoreapi.com/products")
+// .then((res)=>{
+//     console.log(res.data);
+//     for(let i = 0; i < res.data.length; i++)
+//     console.log();
+// })
+// .catch((err)=>{
+//     console.log(err);
+// })
+
+
+let email = document.getElementById("email")
+let password = document.getElementById("Password")
+let btn =  document.getElementById("btn")
+
+btn.addEventListener("click" )
