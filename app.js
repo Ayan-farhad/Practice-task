@@ -255,46 +255,46 @@
 // },500);
 
 
-var minutes = 0
-var seconds = 0
-var miliseconds = 0
-var getmin = document.getElementById('min')
-var getsec = document.getElementById('sec')
-var getmili = document.getElementById('msec')
-var interval;
+// var minutes = 0
+// var seconds = 0
+// var miliseconds = 0
+// var getmin = document.getElementById('min')
+// var getsec = document.getElementById('sec')
+// var getmili = document.getElementById('msec')
+// var interval;
 
 
 
-function start(){
-    interval = setInterval(function(){
-        miliseconds++
-        getmili.innerHTML = miliseconds
-        if(miliseconds >= 100){
-            seconds++
-            getsec.innerHTML = seconds
-            miliseconds = 0
-        }
-        else if(seconds >= 5){
-            minutes++
-            getmin.innerHTML = minutes
-            seconds = 0
-        }
-    },10)  
-    document.getElementById('sss').disabled = true
-}
-function stop(){
-    clearInterval(interval)
-    document.getElementById('sss').disabled = false
-}
+// function start(){
+//     interval = setInterval(function(){
+//         miliseconds++
+//         getmili.innerHTML = miliseconds
+//         if(miliseconds >= 100){
+//             seconds++
+//             getsec.innerHTML = seconds
+//             miliseconds = 0
+//         }
+//         else if(seconds >= 5){
+//             minutes++
+//             getmin.innerHTML = minutes
+//             seconds = 0
+//         }
+//     },10)  
+//     document.getElementById('sss').disabled = true
+// }
+// function stop(){
+//     clearInterval(interval)
+//     document.getElementById('sss').disabled = false
+// }
 
-function reset(){
-    minutes = 0
-    miliseconds = 0
-    seconds = 0
-    getmin.innerHTML = minutes
-    getsec.innerHTML = seconds
-    getmili.innerHTML = miliseconds
-}
+// function reset(){
+//     minutes = 0
+//     miliseconds = 0
+//     seconds = 0
+//     getmin.innerHTML = minutes
+//     getsec.innerHTML = seconds
+//     getmili.innerHTML = miliseconds
+// }
 
 
 
@@ -311,10 +311,9 @@ function reset(){
 //     s_roll : "7078",
 //     s_course : "web and mob",
 // }
-// console.log(obj);
 
-
-
+// delete obj = s-;
+// obj.color ="black"
 
 // -------------------------------------------//**EVENTS **//-------------------------------------------------
 
@@ -326,9 +325,22 @@ function reset(){
 // })
 
 
-// --------------------------------------------------------------------------------------------
+// ---------------------------------//**API **//---------------------------------------------
 
 
+// axios.get("https://fakestoreapi.com/products")
+// .then((res)=>{
+//     console.log(res.data);
+//     for(let i = 0; i < res.data.length; i++)
+//     console.log();
+// })
+// .catch((err)=>{
+//     console.log(err);   a 
+// })
+
+ 
+
+// ------------------------------------------------------------------------------------------
 // var userInput = prompt ("admin")
 // var pass = prompt ("admin")
 // if (userInput== pass){
@@ -872,19 +884,10 @@ function reset(){
 // console.log(rej);
 // })
 
-// axios.get("https://fakestoreapi.com/products")
-// .then((res)=>{
-//     console.log(res.data);
-//     for(let i = 0; i < res.data.length; i++)
-//     console.log();
-// })
-// .catch((err)=>{
-//     console.log(err);
-// })
-
 
 // let email = document.getElementById("email")
 // let password = document.getElementById("Password")
 // let btn =  document.getElementById("btn")
 
 // btn.addEventListener("click" )
+
