@@ -915,3 +915,110 @@
 //     console.log(err);
 // })
 
+// ------------------function-prac--------------------//
+
+// Question-1
+
+// function greet(name) {
+//     console.log("Hello, " + name + "!");
+//   }
+  
+//   greet("Alice");
+//   greet("Bob");
+//   greet("Charlie");
+  
+
+// Question-2
+
+// function displayCurrentDateTime() {
+//     const currentDateTime = new Date();
+  
+//     const formattedDateTime = currentDateTime.toLocaleString();
+  
+//     alert("Current Date & Time: " + formattedDateTime);
+//   }
+  
+//   displayCurrentDateTime();
+
+// Question-3
+
+// function greetUser(firstName, lastName) {
+  
+//     const fullName = firstName + " " + lastName;
+
+//     console.log("Hello, " + fullName + "! Welcome!");
+//   }
+  
+//   greetUser("John", "Doe");
+
+
+// Question-4
+
+// function addTwoNumbers() {
+    
+//     let num1 = parseFloat(prompt("Enter the first number:"));
+//     let num2 = parseFloat(prompt("Enter the second number:"));
+  
+//     let sum = num1 + num2;
+//     return sum;
+//   }
+  
+  // let result = addTwoNumbers();
+  // console.log("The sum of the two numbers is:", result);
+  
+  
+  
+//  Question15
+
+// var abc = function inner() { 
+//     return typeof inner; 
+// }
+// alert(abc());
+
+
+// Question16
+
+// function computePower(base, exponent) {
+//     let result = Math.pow(base, exponent);
+//     return result;
+// }
+// let baseNumber = 2;
+// let exponentNumber = 4;
+// let result = computePower(baseNumber, exponentNumber);
+// console.log(`${baseNumber}^${exponentNumber} is ${result}`);
+
+
+
+// Question 17
+// function rollDice() {
+//        return Math.floor(Math.random() * 6) + 1;
+// }
+// let diceResult = rollDice();
+// console.log(The dice rolled: ${diceResult});
+
+//  Question 18
+// function reverseNumber(number) {
+    
+//     let reversedString = number.toString().split('').reverse().join('');   
+//     let reversedNumber = parseInt(reversedString);
+//     return reversedNumber;
+// }
+// let x = 3224783;
+// let reversedX = reverseNumber(x);
+// console.log(Original number: ${x});
+// console.log(Reversed number: ${reversedX});
+
+
+// Question 19  
+// function isPalindrome(inputString) {
+    
+//     let cleanString = inputString.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();   
+//     let reversedString = cleanString.split('').reverse().join('');
+//        return cleanString === reversedString;
+// }
+// let testString = "maham";
+// if (isPalindrome(testString)) {
+//     console.log(${testString} is a palindrome.);
+// } else {
+//     console.log(${testString} is not a palindrome.);
+// }
