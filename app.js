@@ -315,6 +315,7 @@
 // delete obj = s-;
 // obj.color ="black"
 
+
 // -------------------------------------------//**EVENTS **//-------------------------------------------------
 
 
@@ -890,4 +891,27 @@
 // let btn =  document.getElementById("btn")
 
 // btn.addEventListener("click" )
+
+
+// let div = document.getElementById("abc")
+// axios.get('https://fakestoreapi.com/products')
+// .then((res)=>{
+//     console.log(res.data);
+//     for (let i = 0; i < res.data.length; i++) {
+//         div.innerHTML += `<div class="p-5 border border-1  rounded-1 shadow-lg m-2">
+//         <p><span class="font-bold text-lg">brand:</span> ${res.data[i].brand}</p>
+//         <p><span class="font-bold text-lg">Model:</span> ${res.data[i].model}</p>
+//         <p><span class="font-bold text-lg">RAM:</span> ${res.data[i].ram}</p>
+//         <p><span class="font-bold text-lg">ROM:</span> ${res.data[i].rom}</p>
+//         <p><span class="font-bold text-lg">Camera:</span> ${res.data[i].camera}</p>
+//         <p><span class="font-bold text-lg">Price:</span> ${res.data[i].price}</p>
+//         <button onclick='addToCart(${i})' class="btn btn-primary m-2">Add to Cart</button>
+//         </div>`
+        
+//     }
+// })
+
+// .catch((err)=>{
+//     console.log(err);
+// })
 
