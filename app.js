@@ -1188,25 +1188,24 @@
 
 
 
-// ------------------------Exam-Prac----------------------------------\\
+        // ------------------------Exam-Prac----------------------------------\\
 
 // Question 1
 
 // const fruits = ["apple" , "banana" , "mango" , "orange" , "Stawberry" ];
 
 // for (let i = 0; i < fruits.length; i++) {
-//    console.log(fruits[i]); 
+//     console.log(`${fruits[i]}`);
 // }
-
 // for (let i = 0; i < fruits.length; i++) {
-//     console.log(`Element at index ${i}: is  ${fruits[i]}`);
+//     console.log(`Element at index ${i} is ${fruits[i]}`);
 // }
 
 // Question 2
 
 // const items = ["cake", "apple pie" , "cookie" , "chips" , "pastties"];
 // let userinp = prompt("Enter items");
-// let index = items.indexOf(userinp);
+// let i = items.indexOf(userinp);
 // let found = false;
 
 // for(let i = 0; i < items.length; i++){
@@ -1223,50 +1222,57 @@
 
 // Question 3
 
-// var scores = [1 , 2 , 3 , 4 , 5 , 6]
-// let userinp = prompt("Enter scores")
+// var scores = [1 , 2 , 3 , 4 , 5 , 6];
+// let userinp = parseInt(prompt("Enter scores"));
 
-// for (let i = 0; i < scores.length; i++) {
-//     if (scores === userinp) {
-//         alert(`${userinp}`)
+// if(userinp >= 1 && userinp <= scores[scores.length -1]){
+//     let array = []; 
+
+//     for (let i = 0; i < scores.length; i++) {
+//         if(scores[i] <= userinp){
+//             array.push(scores[i])
+//         }
 //     }
+    
+//   alert(` ${array.join(", ")}`);
 // }
-
-// var scores = [1, 2, 3, 4, 5, 6];
-// let userinp = parseInt(prompt("Enter a score")); // Convert user input to integer
-
-// // Check if the user input is a valid score
-// if (!isNaN(userinp) && userinp >= 1 && userinp <= scores[scores.length - 1]) {
-//   let resultArray = [];
-
-//   for (let i = 0; i < scores.length; i++) {
-//     if (scores[i] <= userinp) {
-//       resultArray.push(scores[i]);
-//     }
-//   }
-
-//   alert(`Result: ${resultArray.join(", ")}`);
-// } else {
-//   alert("Invalid input or score not in the valid range.");
+// else{
+//     alert("Invalid score please inter a valid scores");
 // }
 
 
-// axios.get('https://fakestoreapi.com/products')
-// .then(res => {
-//     console.log(res.data);
-//     render(res.data);
-// })
-// .catch(error =>{
-//     console.error('Error fetching data:', error)
-// })
+// Question 4
 
-// const div = document.querySelector(".products")
+// a.
+function patternA(starLine) {
+    for (let i = 0; i < starLine.length; i++) {
+        console.log(line.repeat(starLine[i]));
+    }
+}
 
-// function render(data) {
-//     for (let index = 0; index < data.length; index++) {
-//       const productInfo = document.createElement('div');
-//       productInfo.textContent = `${data[index].title} - $${data[index].price}`;
-//       div.appendChild(productInfo);
+let userinp = prompt("Enter the number of lines for Pattern A: ");
+patternA(userinp);
+
+
+// b
+// function patternB(starLine) {
+//     for (let i = 1; i < starLine; i++) {
+//         console.log('*'.repeat(i));
 //     }
-//   }
-//  render();
+// }
+
+// let userInp = prompt("Enter the number of lines for Pattern B: ");
+// patternB(userInp);
+
+// c
+// function patternC(starLines) {
+//     for (let i = starLines;  starLines > 0; i--) {
+//         console.log('*'.repeat(i));
+//     }
+// }
+
+// let userInp = prompt("Enter the number for Pattern C: ");
+// patternC(userInp);
+
+
+// Question 5
