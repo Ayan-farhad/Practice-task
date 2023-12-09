@@ -99,9 +99,9 @@
 
 
 // let array = ['Ayan','karachi','Pakistan']
-// array.splice(1,1,"kam tamam")
 
-// document.write(array)
+
+// console.log(array);
 
 
 
@@ -182,8 +182,9 @@
 
 // let arr = ['usama', 'ali' , 'ayan', 'sheraz']
 // let arr2 = ['javed','khan']                  
-// for (let i=0; i<arr.length; i++){              Normal
-//     document.write(arr[i]+' '+ arr2+'<br>')
+// for (let i=0; i<arr.length; i++){   
+//     console.log(arr);           
+//     // document.write(arr[i]+' '+ arr2+'<br>')
 // }
 
 // let  arr = [ 'Salman ' , ' Sohail ' , ' Arbaz ']
@@ -963,11 +964,15 @@
 //     return sum;
 //   }
   
-  // let result = addTwoNumbers();
-  // console.log("The sum of the two numbers is:", result);
+//   let result = addTwoNumbers();
+//   console.log("The sum of the two numbers is:", result);
   
+
+// Question-5
   
-  
+
+
+
 //  Question15
 
 // var abc = function inner() { 
@@ -1022,3 +1027,246 @@
 // } else {
 //     console.log(${testString} is not a palindrome.);
 // }
+
+
+
+// --------------API 
+
+// const arr = [];
+// let data; 
+// const div = document.querySelector('.render-phones');
+// const checkout = document.querySelector('#checkout');
+
+// axios.get('https://fakestoreapi.com/products')
+// .then((res)=>{
+//     // console.log(res.data);
+//     data = res.data
+//     for (let i = 0; i < res.data.length; i++) {
+//         // console.log(res.data[i]);  
+//         div.innerHTML += `
+//         <div style="border: 1px solid black;" class="m-5 p-5 rounded">
+//         <h1>title: ${res.data[i].title}</h1> <br/>
+//         <img width="200px" src="${res.data[i].image}" alt="product-image">
+//         <h3>price: ${res.data[i].price}</h3>
+//         <button onclick="addToCart(${i})" class="btn btn-primary m-2 btn-lg">Add to cart</button>
+//         </div>
+//         `
+//     }
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+// function addToCart (index){
+//     // console.log(data[index]);
+//     arr.push(data[index]);
+//     console.log(arr);
+// }
+
+
+
+// checkout.addEventListener('click' , ()=>{
+//     localStorage.setItem('items' , JSON.stringify(arr));
+//     window.location = 'checkout.html';
+//     // localStorage.removeItem('items')
+// })
+
+// ----------------------------------------------
+
+// const phones = [
+//     {
+//         brand: 'Samsung',
+//         model: 'S20',
+//         ram: 8,
+//         rom: 256,
+//         camera: '20 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Xiomi',
+//         model: 'note10',
+//         ram: 4,
+//         rom: 64,
+//         camera: '10 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Infinix',
+//         model: 'z10',
+//         ram: 2,
+//         rom: 16,
+//         camera: '5 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Tecno',
+//         model: 'spark10',
+//         ram: 12,
+//         rom: 512,
+//         camera: '25 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Iphone',
+//         model: '14',
+//         ram: 4,
+//         rom: 1024,
+//         camera: '30 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Oppo',
+//         model: 'F11',
+//         ram: 8,
+//         rom: 256,
+//         camera: '20 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Vivo',
+//         model: 'y20',
+//         ram: 4,
+//         rom: 64,
+//         camera: '8 megapixel',
+//         price: 15000
+//     },
+//     {
+//         brand: 'Abdullah',
+//         model: 's50',
+//         ram: 50,
+//         rom: 1024,
+//         camera: '60 megapixel',
+//         price: 300000
+//     },
+
+// ]
+
+// const div = document.querySelector('.render');
+// for (let i = 0; i < phones.length; i++) {
+//     div.innerHTML += `
+//     <div class="p-5 border border-1  rounded-1 shadow-lg m-2">
+//             <p><span class="font-bold text-lg">brand:</span>  ${phones[i].brand} </p>
+//             <p><span class="font-bold text-lg">Model:</span> ${phones[i].model}</p>
+//             <p><span class="font-bold text-lg">RAM:</span> ${phones[i].ram}</p>
+//             <p><span class="font-bold text-lg">ROM:</span> ${phones[i].rom}</p>
+//             <p><span class="font-bold text-lg">Camera:</span> ${phones[i].camera}</p>
+//             <p><span class="font-bold text-lg">Price:</span> ${phones[i].price}</p>
+//             <button onclick='addToCart(${i})' class="btn btn-success m-2">Add to Cart</button>
+        
+
+//     </div>
+//     `
+    
+// }
+
+
+
+// axios.get('https://fakestoreapi.com/products')
+// .then(response => {
+//     // Handle the response data, for example, log it to the console
+//     console.log(response.data);
+
+//     // Render the data on the screen
+//     renderData(response.data);
+// })
+// .catch(error => {
+//     console.error('Error fetching data:', error);
+// });
+
+// function renderData(data) {
+// // Example: Render the data as a list
+// const productsDiv = document.getElementById('products');
+// const productList = document.createElement('ul');
+
+// data.forEach(product => {
+//     const listItem = document.createElement('li');
+//     listItem.textContent = `${product.title} - $${product.price}`;
+//     productList.appendChild(listItem);
+// });
+
+// productsDiv.appendChild(productList);
+// }
+
+
+
+// ------------------------Exam-Prac----------------------------------\\
+
+// Question 1
+
+// const fruits = ["apple" , "banana" , "mango" , "orange" , "Stawberry" ];
+
+// for (let i = 0; i < fruits.length; i++) {
+//    console.log(fruits[i]); 
+// }
+
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(`Element at index ${i}: is  ${fruits[i]}`);
+// }
+
+// Question 2
+
+// const items = ["cake", "apple pie" , "cookie" , "chips" , "pastties"];
+// let userinp = prompt("Enter items");
+// let index = items.indexOf(userinp);
+// let found = false;
+
+// for(let i = 0; i < items.length; i++){
+//     if(items[i] === userinp){
+//         alert(`${userinp} is available at index ${i} in our bakery`)
+//         found = true;
+//         break
+//     }
+// }
+
+// if(!found){
+//     alert(`We are sorry ${userinp} is not available in my bakery`)
+// }
+
+// Question 3
+
+// var scores = [1 , 2 , 3 , 4 , 5 , 6]
+// let userinp = prompt("Enter scores")
+
+// for (let i = 0; i < scores.length; i++) {
+//     if (scores === userinp) {
+//         alert(`${userinp}`)
+//     }
+// }
+
+// var scores = [1, 2, 3, 4, 5, 6];
+// let userinp = parseInt(prompt("Enter a score")); // Convert user input to integer
+
+// // Check if the user input is a valid score
+// if (!isNaN(userinp) && userinp >= 1 && userinp <= scores[scores.length - 1]) {
+//   let resultArray = [];
+
+//   for (let i = 0; i < scores.length; i++) {
+//     if (scores[i] <= userinp) {
+//       resultArray.push(scores[i]);
+//     }
+//   }
+
+//   alert(`Result: ${resultArray.join(", ")}`);
+// } else {
+//   alert("Invalid input or score not in the valid range.");
+// }
+
+
+// axios.get('https://fakestoreapi.com/products')
+// .then(res => {
+//     console.log(res.data);
+//     render(res.data);
+// })
+// .catch(error =>{
+//     console.error('Error fetching data:', error)
+// })
+
+// const div = document.querySelector(".products")
+
+// function render(data) {
+//     for (let index = 0; index < data.length; index++) {
+//       const productInfo = document.createElement('div');
+//       productInfo.textContent = `${data[index].title} - $${data[index].price}`;
+//       div.appendChild(productInfo);
+//     }
+//   }
+//  render();

@@ -8,3 +8,84 @@
     border: 2px solid black;
     padding-top: 10px;
 } */
+
+
+/* --------cv */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3498db, #d12c2a);
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: inherit;
+    color: #3498db;
+}
+
+.title {
+    font-weight: bold;
+    font-size: larger;
+    color: #2ecc71;
+}
+
+.info {
+    color: #333;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.skill-list {
+    padding: 0;
+}
+
+.skill {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hr{
+    color: black;
+}
+.color{
+    color: #2c88c5;
+}
+
+
+.info {
+    margin: 10px 0;
+}
+
+.info strong {
+    color: #f39c12;
+} */
+
